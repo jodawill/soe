@@ -7,4 +7,5 @@
 
 * Add exceptions for inconsistent and underdetermined systems
 * Introduce real fractions with GNU MP Bignum Library
+* Support piping and file inputs for coefficients
 
