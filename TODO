@@ -1,0 +1,10 @@
++---------------------------------------------------------+
+| TODO                                                    |
++---------------------------------------------------------+
+
+
+// General
+
+* Add exceptions for inconsistent and underdetermined systems
+* Introduce real fractions with GNU MP Bignum Library
+
