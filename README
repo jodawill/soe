@@ -1,0 +1,39 @@
+soe - System of Equations Solver
+================================
+             Current Web Home: https://github.com/jodawill/soe
+
+soe is a free utility to solve systems of equations. It will prompt the
+user for the co efficients in each equation and the right-hand sides then
+use Gaussian elimination to solve for the unknowns.
+
+When run with the -v (verbose) option, it will display the steps it used
+to solve the equations.
+
+INSTALLATION
+============
+
+To compile, simply type `make` into the terminal. Provided you have a
+working installation of gcc in your path, it will place the executable
+in the top level directory.
+
+BUGS AND FEATURE REQUEST
+========================
+Please report bugs to the maintainer, Joshua Williams <jodawill@iuk.edu>.
+Before requesting a feature, read the TODO file to make sure it isn't
+already planned for a future release. Of course, patches are always welcome.
+
+LEGAL
+=====
+
+Copyright (C) 2014 Joshua Williams
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+ 
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301
+USA.
+
