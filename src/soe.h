@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+int verbose;
+
 // common.c
 void wait();
 void eval_args(int argc, char *argv[]);

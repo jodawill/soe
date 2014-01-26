@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-
-int verbose;
+#include <soe.h>
 
 void wait() {
  printf("Press <Enter> to continue.\n");
@@ -25,6 +24,7 @@ void display_matrix(int nou, double mat[nou][nou + 1]) {
   }
   printf(" | \n");
  }
+ printf("\n\n");
 }
 
 void display_result(int nou, double mat[nou][nou + 1]) {

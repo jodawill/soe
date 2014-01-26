@@ -19,9 +19,6 @@
 #include <stdio.h>
 #include "soe.h"
 
-void sort_matrix(int nou, double mat[nou][nou + 1]) {
-}
-
 int main(int argc, char *argv[]) {
  // Handle arguments if there are any
  if (argc > 0) {
@@ -41,3 +38,4 @@ int main(int argc, char *argv[]) {
 
  return 0;
 }
+
